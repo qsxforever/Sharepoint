@@ -1,8 +1,3 @@
-<<<<<<< HEAD
 Tiles:
 http://www.avtex.com/2014/05/recreating-tile-view-using-display-templates/
-=======
-Tiles:
-http://www.avtex.com/2014/05/recreating-tile-view-using-display-templates/
->>>>>>> 60df8d8023083cded8c24c014bd70759abd1efd3
 https://github.com/kameronberget/SharePointPhiles
