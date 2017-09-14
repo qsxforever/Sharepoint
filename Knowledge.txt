@@ -1,3 +1,8 @@
 Tiles:
 http://www.avtex.com/2014/05/recreating-tile-view-using-display-templates/
 https://github.com/kameronberget/SharePointPhiles
+
+https://williamwmy.wordpress.com/2013/04/16/presenting-content-query-web-part-items-in-a-html-table/#comments
+
+A Table Style Thing:
+https://paulgalvinsoldblog.wordpress.com/2007/12/09/display-content-query-web-part-results-in-a-grid-table/
