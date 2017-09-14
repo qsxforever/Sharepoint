@@ -1,0 +1,3 @@
+Tiles:
+http://www.avtex.com/2014/05/recreating-tile-view-using-display-templates/
+https://github.com/kameronberget/SharePointPhiles
