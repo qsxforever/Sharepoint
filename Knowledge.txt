@@ -6,3 +6,12 @@ https://williamwmy.wordpress.com/2013/04/16/presenting-content-query-web-part-it
 
 A Table Style Thing:
 https://paulgalvinsoldblog.wordpress.com/2007/12/09/display-content-query-web-part-results-in-a-grid-table/
+
+Render it as a series of Divs with the same class
+Then with jquery, every nth it injects some additional code?
+0,1,2,3,4,5
+Find the first div and :before
+inject a new Div row wrapper Open Tag
+ouput 0,1,2
+on the 4th inject a new div row wrapper
+

@@ -1,0 +1,87 @@
+<html>
+    <head>
+<style>
+    .item {
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        float:none;
+        background-color:yellow;
+        margin: 0 15px 0 15px !important;
+        padding: 0 5px 0 5px !important;
+
+    }
+    
+    .itemcontainer {
+        
+    }
+    
+
+</style>    
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="row allcontainer">
+        <div class="itemcontainer">
+            <div class="item">
+            <h3>Service A</h3>
+                <p><span class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (more)</span><span class="blurband" style="display:none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum arcu quis aliquet vehicula. Mauris aliquam augue vitae odio ornare sollicitudin.</span></p>
+            </div>
+        </div>
+        
+        <div class="itemcontainer">
+            <div class="item">
+        <h3>Service B</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum arcu quis aliquet vehicula.</p>
+        </div>
+            </div>
+        
+            <div class="itemcontainer">
+        <div class="item">
+        <h3>Service C</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum arcu quis aliquet vehicula. Mauris aliquam augue vitae odio ornare sollicitudin.</p>
+        </div>
+            </div>
+        </div>
+            <div class="row allcontainer">
+            <div class="itemcontainer">
+        <div class="item">
+        <h3>Service D</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum arcu quis aliquet vehicula. Mauris aliquam augue vitae odio ornare sollicitudin.</p>
+        </div>
+            </div>
+        
+            <div class="itemcontainer">
+        <div class="item">
+        <h3>Service E</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+            </div>
+        
+            <div class="itemcontainer">
+        <div class="item">
+        <h3>Service F</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum arcu quis aliquet vehicula.</p>
+        </div>
+            </div>
+        </div>
+        
+    </body>
+<script>
+$(document).ready(function() {
+    
+    $('.itemcontainer').addClass('col-md-4');
+    
+    $(".item").click(function() {
+    //$(this).animate( { height: "200px" }, 500);
+    //$(this).find(".blurband").show('500');
+        
+        $(this).find(".blurband").slideToggle("slow");
+        
+    });
+});
+    </script>
+</html>
