@@ -7,6 +7,9 @@ https://williamwmy.wordpress.com/2013/04/16/presenting-content-query-web-part-it
 A Table Style Thing:
 https://paulgalvinsoldblog.wordpress.com/2007/12/09/display-content-query-web-part-results-in-a-grid-table/
 
+Template for Refiners
+https://www.eliostruyf.com/creating-custom-refiner-control-display-templates-for-sharepoint-2013/
+
 Render it as a series of Divs with the same class
 Then with jquery, every nth it injects some additional code?
 0,1,2,3,4,5
