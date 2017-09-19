@@ -1,0 +1,64 @@
+Visual Studio - Sharepoint 2013 Empty Project
+Select Farm and Finish
+Add new Item - Application Page
+
+ODATA Queries
+_api/Web/Lists?$select=Title,Field2
+...$filter=(Hidden eq false)
+...$orderby=itemCount desc
+...$skip=25&top=10
+...$expand=Fields
+
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752357
+
+Call with Lists:
+---
+/_api/Web/Lists
+jQuery.each(data.d.results, function (index, value) {
+	message.append(String.format("List {0} has {1} items and is {2} hidden", value.Title, value.ItemCount, value.Hidden ? "": "not"));
+});
+
+Muti Context Calls
+---
+call1 = ajax call
+call2
+var calls = jQuery.when(call1, call2);
+calls.done(function (callback1, callback2)
+callback1[0].d.Title
+callback2[0].d.results
+
+Version 2
+---
+/_api/Web?$select=title,Lists/Hidden,Lists/ItemCount&expand=Lists
+data.d.lists.results
+NO FILTER
+
+Version 3 (look up field)
+---
+/_api/Web/Lists/getByTitle('Products')/Items?$select=Title,Category/Title&$filter=(Category/Title eq 'Beverages')&expand=Category/Title
+
+basic Call for Get
+---
+$(document).ready(function() {
+	$("#queryButton").click(queries);
+});
+
+function queries() {
+	var call = jQuery.ajax({
+		url: _spPageContextInfo.webAbsoluteURL + "/_api/Web/" ,
+		type: "GET",
+		dataType: "json",
+		headers: {
+			Accept: "application/json;odata=verbose"
+		}
+	});
+	call.done(function (data, textStatus, jqHXR) {
+	var message = jQuery("#message");
+	message.text(data.d.Title);
+	});
+	call.fail(function(jqHXR, textStatus, errorThrown) {
+	var response = JSON.parse(jqXHR.responseText);
+	var message = response ? response.error.message.value : textStatus;
+	alert("Call Failed.  Error:" + message);
+	});
+}
