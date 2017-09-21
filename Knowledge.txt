@@ -18,3 +18,10 @@ inject a new Div row wrapper Open Tag
 ouput 0,1,2
 on the 4th inject a new div row wrapper
 
+Search Date Stuff:
+https://spvee.wordpress.com/2013/04/01/content-search-web-part-and-event-dates-in-sharepoint-2013/
+http://sharepointpals.com/post/How-to-Query-Discussion-Board-List-Sorting-in-the-Content-Search-WebPart-using-the-DiscussionLastUpdatedOWSDATE-Managed-Property
+https://social.technet.microsoft.com/Forums/sharepoint/en-US/46a78b19-9953-437d-a025-7fd81fe1840e/content-search-web-part-sorting-not-working?forum=sharepointsearch
+https://spvee.wordpress.com/2013/10/09/content-search-web-part-cswp-sort-by-modified-datetime/
+
+

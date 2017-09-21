@@ -1,0 +1,40 @@
+Content Editor File (faq.html)
+---
+<script>
+    $(window).bind('load', function () {
+        
+$('.faq-body').each(function () {
+            $(this).parent('.dfwp-item').removeClass().addClass('faq-container');
+        });
+       
+       ELEMENT.faqSlider();
+       
+    });
+</script>
+
+ELEMENT.js
+---
+faqSlider: function () {
+    $('.faq-container').each(function (e) {
+      $(this).find('a.faq-question').click(function (e) {
+        e.preventDefault();
+        $(this).parent().find('.answer').slideToggle();
+      });
+    });
+  }
+
+Site DOM
+---
+<li class="faq-container">
+  <div class="faq-body" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime">
+    <a href="/sites/learn/_layouts/15/CopyUtil.aspx?Use=id&amp;Action=dispform&amp;ItemId=2&amp;ListId=c4b176b1-eb78-43ac-944d-7845614966d6&amp;WebId=512d06f5-91cb-4a93-9719-77a7141e8338&amp;SiteId=ed3842ee-1b4c-4816-963b-fd54d35ba2b8&amp;Source=https%3A%2F%2Fcollaboration%2Eweb%2Eehealthsask%2Eca%2Fsites%2Flearn%2FPages%2Ffaqs%2Easpx"
+    class="faq-question">
+      <span class="faq-number" style="color:#48b938;">+</span>What web browser should I use to view/access content on the LION? </a>
+    <div class="faq-answer">
+      <div class="ExternalClass49F4F5017820484AB78818C35E1722E5">
+        <p><span style="font-size:14pt;"><span style="line-height:115%;font-family:calibri, sans-serif;"><strong>Google Chrome!&nbsp;</strong>&nbsp;While IE 11 and Firefox are acceptable web browsers to use for the LION, the preferred browser for the best experience is&nbsp;<strong>Chrome.&nbsp;</strong>Please note that depending on your selected browser, the browser's accompanying add-ons and platforms must also &#8203;be installed and functional in order for the content to display/play as expected. For example, if&nbsp;<strong>Chrome</strong>&#8203; is your selected browser, the appropriate Flash platform must also be installed and functional on your workstation.&nbsp;&#8203;&nbsp;</span>&#8203;</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</li>
