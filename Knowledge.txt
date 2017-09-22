@@ -24,4 +24,7 @@ http://sharepointpals.com/post/How-to-Query-Discussion-Board-List-Sorting-in-the
 https://social.technet.microsoft.com/Forums/sharepoint/en-US/46a78b19-9953-437d-a025-7fd81fe1840e/content-search-web-part-sorting-not-working?forum=sharepointsearch
 https://spvee.wordpress.com/2013/10/09/content-search-web-part-cswp-sort-by-modified-datetime/
 
+What is this!
+https://www.habaneroconsulting.com/stories/insights/2014/why-are-my-sort-orders-not-working-in-my-sharepoint-2013-search-results-web-part
+
 
