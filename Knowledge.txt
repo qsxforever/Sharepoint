@@ -27,4 +27,19 @@ https://spvee.wordpress.com/2013/10/09/content-search-web-part-cswp-sort-by-modi
 What is this!
 https://www.habaneroconsulting.com/stories/insights/2014/why-are-my-sort-orders-not-working-in-my-sharepoint-2013-search-results-web-part
 
+REST Call for Site Creation
+http://sympmarc.com/2014/03/30/create-a-subsite-in-sharepoint-2013-using-rest-calls/
+
+https://nickhobbs.wordpress.com/2013/05/18/sharepoint-how-to-check-which-site-template-was-used-to-create-a-site-just-using-a-web-browser/
+
+https://jaredmatfess.com/2016/05/04/creating-subsites-using-rest-api-from-sharepoint-designer-workflow/
+
+--http://www.fabiangwilliams.com/2014/06/19/gotcha-on-sharepoint-designer-workflows-in-app-step/
+
+https://jaredmatfess.com/2016/05/04/creating-subsites-using-rest-api-from-sharepoint-designer-workflow/
+---
+https://support.office.com/en-us/article/Create-and-use-site-templates-60371b0f-00e0-4c49-a844-34759ebdd989
+https://social.technet.microsoft.com/Forums/ie/en-US/721bec39-2d32-4bbc-9094-a021a0d06dcb/how-to-find-the-template-name-of-sharepoint-site?forum=sharepointgenerallegacy
+
+http://praveenbattula.blogspot.ca/2010/08/know-site-template-used-for-sharepoint.html
 
