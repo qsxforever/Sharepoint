@@ -1,0 +1,12 @@
+offset-bp-## --Offset from left
+align-items-ALN (start,center,end) in "row" for vertical alignment
+align-self-ALN (start,center,end) in "col" for vertical alignment
+justify-content-ALN (start,center,end,around,between) in "row" for horizontal alignment
+justify-content-ALN (start,center,end,around,between) in "row" for horizontal alignment
+
+fixed-top / fixed-bottom (for header / footer maybe?)
+
+dflex to make card heights the same?
+
+invisible
+hidden-BP-DIR (up, dowm)
