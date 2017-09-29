@@ -1,0 +1,20 @@
+<html>
+
+<script>
+
+if(isFlashEnabled()) 
+{ document.write('Flash is installed (but may need to be enabled)'); } 
+else { document.write('Flash is either not installed or disabled'); }
+
+function isFlashEnabled() 
+{
+    var flash = navigator.plugins.namedItem('Shockwave Flash');
+    if (!flash) { return 0; } 
+    else { return 1; }
+}
+
+</script>
+
+<body> <embed src="https://www.w3schools.com/tags/helloworld.swf"> </body>
+
+</html>
